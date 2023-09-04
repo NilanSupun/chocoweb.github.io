@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-color: #F4F4F4;
+    padding: 10px 10% 100px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navLinks ul li {
+
+    display: inline-block;
+
+
+
+
+}
+
+.navLinks ul li a {
+    text-decoration: none;
+    color: #232020;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.navLinks ul li a:hover {
+    color: #FF7315;
+}
+
+nav img {
+    width: 150px;
+}
+
+
+.hero-section {
+    margin-top: 150px;
+    position: relative;
+}
+
+.hero-section img {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 500px;
+
+}
+
+h1 {
+
+    font-size: 75px;
+    line-height: 120px;
+}
+
+.hero-section h2 {
+
+    font-size: 30px;
+    line-height: 60px;
+    text-align: left;
+    padding: 20px 0;
+    color: #FF7315;
+    margin: 0;
+}
+
+.hero-section h1 span {
+    color: #FF7315;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+hr {
+    border-top-style: none;
+    border-left-style: none;
+    margin: -75px auto 100px;
+    border-width: 3px;
+    width: 4%;
+    border-color: #FF7315;
+
+}
+
+.book-btn{
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 600;
+    background-color: #FF7315;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    
+}
+
+/*------------------------------------------about-------------------------------*/
+
+.about {
+    
+    display: flex;
+    flex-basis: 30%;
+    gap: 20px;
+    padding: 50px 20%;
+    
+}
+
+
+.about img {
+    width: 100%;
+}
+
+.about-col-1 img{
+   margin-top: -50px;
+}
+
+
+.about-col-3{
+    position: relative;
+    padding: 0 30px;
+}
+
+.side-bar {
+    margin: 0 0 10px;
+    width: 10%;
+}
+
+
+
+h3 {
+    padding: 10px 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    line-height: 1.5rem;
+    padding-right: 10px;
+
+}
+
+
+
+.btn {
+
+  
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    color: #FF7315;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ffffff;
+    padding: 10px 15px 10px 15px;
+    border: solid #FF7315 2px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #FF7315;
+    text-decoration: none;
+    color: #F4F4F4;
+}
+
+
+/*----------------------------------------------------------services---------------------------*/
+
+.services {
+    margin: 100px 10%;
+    padding: 30px 20px;
+    display: flex;
+    background-color: #F4F4F4;
+    
+    text-align: center;
+}
+
+.info-box img {
+    width: 100px;
+
+}
+
+.info-box {
+    padding: 20px 50px;
+}
+
+h4 {
+    color: #FF7315;
+    padding: 10px 0;
+}
+
+.info-box p {
+    padding: 0 30px;
+
+}
+
+
+/*-----------------------------------------------menu-----------------------------------------*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 10%;
+    
+  }
+  .grid-item {
+    background-color: #F4F4F4;  
+    
+  }
+
+  .item-row{
+    display: flex;
+    
+    gap: 10px;
+    
+  }
+
+  .item-col-1 img{
+    width: 75%;
+  }
+
+.item-col-2  {
+    position: relative;
+   margin: 20px 0 10px -75px;
+  
+
+}
+
+.book-btn.order-btn{
+  
+  margin-top: 50px;
+  
+  
+  }
+
+
+/*----------------------------------------------contact-------------------------------*/
+.contact {
+    display: flex;
+    justify-content: space-around;
+    background: url(./assign/bg002.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10% ;
+}
+
+
+.contact-content {
+    
+    color: #ffffff;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+    
+}
+.contact-content p{
+    margin-top: -5px;
+}
+.contact-col-2 {
+    flex-basis: 50%;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 75px 25px;
+    position: relative;
+
+}
+
+
+
+input {
+    
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
+.table-form {
+    display: grid;
+    gap: 25px;
+  }
+  
+ 
+ .book-btn.contact-btn{
+    position: absolute;
+    
+    bottom: 40px;
+    right: 40%;
+ } 
+  
+  
+
+
+
+/*------------------------------------------footer--------------------------*/
+
+
+
+th{
+    text-align: left;
+    padding: 10px;
+    color: #FF7315;
+}
+
+
+td{
+    padding: 2px 10px;
+
+}
+
+.footer {
+    background-color: #F4F4F4;
+    padding: 50px 10% ;
+
+}
+.footer-content{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    color: #7B7979;
+}
+
+/*-----------------------------------------small screen-------------------------------------*/
+@media only screen and (max-width:700px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
